@@ -21,3 +21,7 @@ allow system_server zygote_tmpfs:file rw_file_perms;
 
 # PIH
 add_service(system_server, pih_manager_service);
+
+# Stage the Play Integrity props that bionic serves to DroidGuard
+set_prop(system_server, pif_prop)
+

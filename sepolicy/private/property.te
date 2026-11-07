@@ -6,3 +6,7 @@ system_public_prop(pih_disable_prop)
 
 # Tethering
 system_internal_prop(device_config_tethering_prop)
+
+# Play Integrity staging props, served to DroidGuard by bionic
+system_internal_prop(pif_prop)
+

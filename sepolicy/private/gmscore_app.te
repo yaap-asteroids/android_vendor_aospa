@@ -1,1 +1,5 @@
 set_prop(gmscore_app, system_prop)
+
+# DroidGuard reads the staged Play Integrity props through bionic
+get_prop(gmscore_app, pif_prop)
+

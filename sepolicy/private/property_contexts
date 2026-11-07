@@ -6,3 +6,7 @@ persist.sys.pihooks.disable.            u:object_r:pih_disable_prop:s0
 
 # Tethering
 persist.device_config.tethering.        u:object_r:device_config_tethering_prop:s0
+
+# Play Integrity staging props read by bionic in DroidGuard
+persist.sys.pif.                       u:object_r:pif_prop:s0
+
